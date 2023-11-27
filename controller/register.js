@@ -40,7 +40,7 @@ export const login = async (req, res) => {
     if (!findUser) {
       return res
         .status(401)
-        .json({ message: "user not found please regitser first" });
+        .json({ Error: "User not found please regitser first!" });
     }
     const isMatch = await bcrypt.compare(password, findUser.password);
 

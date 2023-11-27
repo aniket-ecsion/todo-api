@@ -1,6 +1,8 @@
 import Tasks from "../model/task.js";
 
 export const newTask = async (req, res) => {
+  console.log(req.body);
+  // process.exit(0);
   const { id, task } = req.body;
   if (!task) {
     return res.json({ message: "Please Enter Task" });
