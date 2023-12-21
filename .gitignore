@@ -1,0 +1,25 @@
+# Dependency directories
+node_modules/
+
+# Environment configuration file
+.env
+
+# Build artifacts
+/dist/
+/build/
+/out/
+
+# Log files
+*.log
+
+# Mac OS system files
+.DS_Store
+
+# Editor configuration files
+.vscode/
+.idea/
+
+# Compiled binary files
+*.o
+*.out
+*.exe
